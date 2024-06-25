@@ -4,3 +4,5 @@ node_modules
 # envs
 .env
 .env.*
+
+ebuddy-technical-test-*.json
