@@ -6,10 +6,6 @@ const port = 3000;
 
 app.use(express.json());
 
-app.get('/healthcheck', (req, res) => {
-  res.send('Hello World!');
-});
-
 app.use('/api', userRoutes);
 
 app.listen(port, () => {
